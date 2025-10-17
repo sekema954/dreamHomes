@@ -1,0 +1,2802 @@
+[
+  {
+    "title": "Sample Property 1",
+    "slug": "sample-property-1",
+    "description": "This is a sample description for property 1. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Rent",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2001,
+    "price": 410000,
+    "rentalEstimate": 2100,
+    "featured": false,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,1",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,1",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,1"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "10 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75001",
+    "geo": {
+      "lat": 32.1,
+      "lng": -96.1
+    },
+    "walkScore": 71,
+    "transitScore": 61,
+    "bikeScore": 66,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "lotSize": "0.10 acres",
+    "buildingSize": "1100 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": false,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 105
+    },
+    "monthlyCosts": {
+      "utilities": 210,
+      "taxes": 415
+    },
+    "initialCosts": {
+      "downPayment": 82000,
+      "closingCosts": 5100
+    },
+    "monthlyExpenses": {
+      "mortgage": 1850,
+      "insurance": 105
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 6.1
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 5.6
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 409000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 410000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 1",
+      "phone": "555-000001",
+      "email": "agent1@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1050,
+      "favorites": 55,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 2",
+    "slug": "sample-property-2",
+    "description": "This is a sample description for property 2. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Sale",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2002,
+    "price": 420000,
+    "rentalEstimate": 2200,
+    "featured": true,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,2",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,2",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,2"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "20 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75002",
+    "geo": {
+      "lat": 32.2,
+      "lng": -96.2
+    },
+    "walkScore": 72,
+    "transitScore": 62,
+    "bikeScore": 67,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "lotSize": "0.20 acres",
+    "buildingSize": "1200 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": true,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 110
+    },
+    "monthlyCosts": {
+      "utilities": 220,
+      "taxes": 430
+    },
+    "initialCosts": {
+      "downPayment": 84000,
+      "closingCosts": 5200
+    },
+    "monthlyExpenses": {
+      "mortgage": 1900,
+      "insurance": 110
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 6.2
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 5.7
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 418000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 420000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 2",
+      "phone": "555-000002",
+      "email": "agent2@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1100,
+      "favorites": 60,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 3",
+    "slug": "sample-property-3",
+    "description": "This is a sample description for property 3. Spacious and modern.",
+    "type": "Apartment",
+    "status": "For Rent",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2003,
+    "price": 430000,
+    "rentalEstimate": 2300,
+    "featured": false,
+    "sponsorshipTier": "Gold",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,3",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,3",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,3"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "30 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75003",
+    "geo": {
+      "lat": 32.3,
+      "lng": -96.3
+    },
+    "walkScore": 73,
+    "transitScore": 63,
+    "bikeScore": 68,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "lotSize": "0.30 acres",
+    "buildingSize": "1300 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": false,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 115
+    },
+    "monthlyCosts": {
+      "utilities": 230,
+      "taxes": 445
+    },
+    "initialCosts": {
+      "downPayment": 86000,
+      "closingCosts": 5300
+    },
+    "monthlyExpenses": {
+      "mortgage": 1950,
+      "insurance": 115
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 6.3
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 5.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 427000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 430000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 3",
+      "phone": "555-000003",
+      "email": "agent3@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1150,
+      "favorites": 65,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 4",
+    "slug": "sample-property-4",
+    "description": "This is a sample description for property 4. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Sale",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2004,
+    "price": 440000,
+    "rentalEstimate": 2400,
+    "featured": true,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,4",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,4",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,4"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "40 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75004",
+    "geo": {
+      "lat": 32.4,
+      "lng": -96.4
+    },
+    "walkScore": 74,
+    "transitScore": 64,
+    "bikeScore": 69,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "lotSize": "0.40 acres",
+    "buildingSize": "1400 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": true,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 120
+    },
+    "monthlyCosts": {
+      "utilities": 240,
+      "taxes": 460
+    },
+    "initialCosts": {
+      "downPayment": 88000,
+      "closingCosts": 5400
+    },
+    "monthlyExpenses": {
+      "mortgage": 2000,
+      "insurance": 120
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 6.4
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 5.9
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 436000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 440000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 4",
+      "phone": "555-000004",
+      "email": "agent4@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1200,
+      "favorites": 70,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 5",
+    "slug": "sample-property-5",
+    "description": "This is a sample description for property 5. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Rent",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2005,
+    "price": 450000,
+    "rentalEstimate": 2500,
+    "featured": false,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,5",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,5",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,5"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "50 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75005",
+    "geo": {
+      "lat": 32.5,
+      "lng": -96.5
+    },
+    "walkScore": 75,
+    "transitScore": 65,
+    "bikeScore": 70,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "lotSize": "0.50 acres",
+    "buildingSize": "1500 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": false,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 125
+    },
+    "monthlyCosts": {
+      "utilities": 250,
+      "taxes": 475
+    },
+    "initialCosts": {
+      "downPayment": 90000,
+      "closingCosts": 5500
+    },
+    "monthlyExpenses": {
+      "mortgage": 2050,
+      "insurance": 125
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 6.5
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 6.0
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 445000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 450000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 5",
+      "phone": "555-000005",
+      "email": "agent5@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1250,
+      "favorites": 75,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 6",
+    "slug": "sample-property-6",
+    "description": "This is a sample description for property 6. Spacious and modern.",
+    "type": "Apartment",
+    "status": "For Sale",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2006,
+    "price": 460000,
+    "rentalEstimate": 2600,
+    "featured": true,
+    "sponsorshipTier": "Gold",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,6",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,6",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,6"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "60 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75006",
+    "geo": {
+      "lat": 32.6,
+      "lng": -96.6
+    },
+    "walkScore": 76,
+    "transitScore": 66,
+    "bikeScore": 71,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "lotSize": "0.60 acres",
+    "buildingSize": "1600 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": true,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 130
+    },
+    "monthlyCosts": {
+      "utilities": 260,
+      "taxes": 490
+    },
+    "initialCosts": {
+      "downPayment": 92000,
+      "closingCosts": 5600
+    },
+    "monthlyExpenses": {
+      "mortgage": 2100,
+      "insurance": 130
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 6.6
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 6.1
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 454000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 460000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 6",
+      "phone": "555-000006",
+      "email": "agent6@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1300,
+      "favorites": 80,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 7",
+    "slug": "sample-property-7",
+    "description": "This is a sample description for property 7. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Rent",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2007,
+    "price": 470000,
+    "rentalEstimate": 2700,
+    "featured": false,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,7",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,7",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,7"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "70 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75007",
+    "geo": {
+      "lat": 32.7,
+      "lng": -96.7
+    },
+    "walkScore": 77,
+    "transitScore": 67,
+    "bikeScore": 72,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "lotSize": "0.70 acres",
+    "buildingSize": "1700 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": false,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 135
+    },
+    "monthlyCosts": {
+      "utilities": 270,
+      "taxes": 505
+    },
+    "initialCosts": {
+      "downPayment": 94000,
+      "closingCosts": 5700
+    },
+    "monthlyExpenses": {
+      "mortgage": 2150,
+      "insurance": 135
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 6.7
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 6.2
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 463000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 470000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 7",
+      "phone": "555-000007",
+      "email": "agent7@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1350,
+      "favorites": 85,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 8",
+    "slug": "sample-property-8",
+    "description": "This is a sample description for property 8. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Sale",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2008,
+    "price": 480000,
+    "rentalEstimate": 2800,
+    "featured": true,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,8",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,8",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,8"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "80 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75008",
+    "geo": {
+      "lat": 32.8,
+      "lng": -96.8
+    },
+    "walkScore": 78,
+    "transitScore": 68,
+    "bikeScore": 73,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "lotSize": "0.80 acres",
+    "buildingSize": "1800 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": true,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 140
+    },
+    "monthlyCosts": {
+      "utilities": 280,
+      "taxes": 520
+    },
+    "initialCosts": {
+      "downPayment": 96000,
+      "closingCosts": 5800
+    },
+    "monthlyExpenses": {
+      "mortgage": 2200,
+      "insurance": 140
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 6.8
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 6.3
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 472000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 480000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 8",
+      "phone": "555-000008",
+      "email": "agent8@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1400,
+      "favorites": 90,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 9",
+    "slug": "sample-property-9",
+    "description": "This is a sample description for property 9. Spacious and modern.",
+    "type": "Apartment",
+    "status": "For Rent",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2009,
+    "price": 490000,
+    "rentalEstimate": 2900,
+    "featured": false,
+    "sponsorshipTier": "Gold",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,9",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,9",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,9"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "90 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75009",
+    "geo": {
+      "lat": 32.9,
+      "lng": -96.9
+    },
+    "walkScore": 79,
+    "transitScore": 69,
+    "bikeScore": 74,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "lotSize": "0.90 acres",
+    "buildingSize": "1900 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": false,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 145
+    },
+    "monthlyCosts": {
+      "utilities": 290,
+      "taxes": 535
+    },
+    "initialCosts": {
+      "downPayment": 98000,
+      "closingCosts": 5900
+    },
+    "monthlyExpenses": {
+      "mortgage": 2250,
+      "insurance": 145
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 6.9
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 6.4
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 481000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 490000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 9",
+      "phone": "555-000009",
+      "email": "agent9@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1450,
+      "favorites": 95,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 10",
+    "slug": "sample-property-10",
+    "description": "This is a sample description for property 10. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Sale",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2010,
+    "price": 500000,
+    "rentalEstimate": 3000,
+    "featured": true,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,10",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,10",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,10"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "100 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75010",
+    "geo": {
+      "lat": 33.0,
+      "lng": -97.0
+    },
+    "walkScore": 80,
+    "transitScore": 70,
+    "bikeScore": 75,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 1,
+    "bathrooms": 3,
+    "lotSize": "1.00 acres",
+    "buildingSize": "2000 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": true,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 150
+    },
+    "monthlyCosts": {
+      "utilities": 300,
+      "taxes": 550
+    },
+    "initialCosts": {
+      "downPayment": 100000,
+      "closingCosts": 6000
+    },
+    "monthlyExpenses": {
+      "mortgage": 2300,
+      "insurance": 150
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 7.0
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 6.5
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 490000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 500000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 10",
+      "phone": "555-000010",
+      "email": "agent10@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1500,
+      "favorites": 100,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 11",
+    "slug": "sample-property-11",
+    "description": "This is a sample description for property 11. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Rent",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2011,
+    "price": 510000,
+    "rentalEstimate": 3100,
+    "featured": false,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,11",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,11",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,11"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "110 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75011",
+    "geo": {
+      "lat": 33.1,
+      "lng": -97.1
+    },
+    "walkScore": 81,
+    "transitScore": 71,
+    "bikeScore": 76,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 2,
+    "bathrooms": 4,
+    "lotSize": "1.10 acres",
+    "buildingSize": "2100 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": false,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 155
+    },
+    "monthlyCosts": {
+      "utilities": 310,
+      "taxes": 565
+    },
+    "initialCosts": {
+      "downPayment": 102000,
+      "closingCosts": 6100
+    },
+    "monthlyExpenses": {
+      "mortgage": 2350,
+      "insurance": 155
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 7.1
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 6.6
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 499000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 510000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 11",
+      "phone": "555-000011",
+      "email": "agent11@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1550,
+      "favorites": 105,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 12",
+    "slug": "sample-property-12",
+    "description": "This is a sample description for property 12. Spacious and modern.",
+    "type": "Apartment",
+    "status": "For Sale",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2012,
+    "price": 520000,
+    "rentalEstimate": 3200,
+    "featured": true,
+    "sponsorshipTier": "Gold",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,12",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,12",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,12"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "120 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75012",
+    "geo": {
+      "lat": 33.2,
+      "lng": -97.2
+    },
+    "walkScore": 82,
+    "transitScore": 72,
+    "bikeScore": 77,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "lotSize": "1.20 acres",
+    "buildingSize": "2200 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": true,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 160
+    },
+    "monthlyCosts": {
+      "utilities": 320,
+      "taxes": 580
+    },
+    "initialCosts": {
+      "downPayment": 104000,
+      "closingCosts": 6200
+    },
+    "monthlyExpenses": {
+      "mortgage": 2400,
+      "insurance": 160
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 7.2
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 6.7
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 508000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 520000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 12",
+      "phone": "555-000012",
+      "email": "agent12@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1600,
+      "favorites": 110,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 13",
+    "slug": "sample-property-13",
+    "description": "This is a sample description for property 13. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Rent",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2013,
+    "price": 530000,
+    "rentalEstimate": 3300,
+    "featured": false,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,13",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,13",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,13"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "130 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75013",
+    "geo": {
+      "lat": 33.3,
+      "lng": -97.3
+    },
+    "walkScore": 83,
+    "transitScore": 73,
+    "bikeScore": 78,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "lotSize": "1.30 acres",
+    "buildingSize": "2300 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": false,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 165
+    },
+    "monthlyCosts": {
+      "utilities": 330,
+      "taxes": 595
+    },
+    "initialCosts": {
+      "downPayment": 106000,
+      "closingCosts": 6300
+    },
+    "monthlyExpenses": {
+      "mortgage": 2450,
+      "insurance": 165
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 7.3
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 6.8
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 517000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 530000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 13",
+      "phone": "555-000013",
+      "email": "agent13@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1650,
+      "favorites": 115,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 14",
+    "slug": "sample-property-14",
+    "description": "This is a sample description for property 14. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Sale",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2014,
+    "price": 540000,
+    "rentalEstimate": 3400,
+    "featured": true,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,14",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,14",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,14"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "140 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75014",
+    "geo": {
+      "lat": 33.4,
+      "lng": -97.4
+    },
+    "walkScore": 84,
+    "transitScore": 74,
+    "bikeScore": 79,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "lotSize": "1.40 acres",
+    "buildingSize": "2400 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": true,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 170
+    },
+    "monthlyCosts": {
+      "utilities": 340,
+      "taxes": 610
+    },
+    "initialCosts": {
+      "downPayment": 108000,
+      "closingCosts": 6400
+    },
+    "monthlyExpenses": {
+      "mortgage": 2500,
+      "insurance": 170
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 7.4
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 6.9
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 526000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 540000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 14",
+      "phone": "555-000014",
+      "email": "agent14@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1700,
+      "favorites": 120,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 15",
+    "slug": "sample-property-15",
+    "description": "This is a sample description for property 15. Spacious and modern.",
+    "type": "Apartment",
+    "status": "For Rent",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2015,
+    "price": 550000,
+    "rentalEstimate": 3500,
+    "featured": false,
+    "sponsorshipTier": "Gold",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,15",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,15",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,15"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "150 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75015",
+    "geo": {
+      "lat": 33.5,
+      "lng": -97.5
+    },
+    "walkScore": 85,
+    "transitScore": 75,
+    "bikeScore": 80,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 1,
+    "bathrooms": 4,
+    "lotSize": "1.50 acres",
+    "buildingSize": "2500 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": false,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 175
+    },
+    "monthlyCosts": {
+      "utilities": 350,
+      "taxes": 625
+    },
+    "initialCosts": {
+      "downPayment": 110000,
+      "closingCosts": 6500
+    },
+    "monthlyExpenses": {
+      "mortgage": 2550,
+      "insurance": 175
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 7.5
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 7.0
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 535000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 550000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 15",
+      "phone": "555-000015",
+      "email": "agent15@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1750,
+      "favorites": 125,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 16",
+    "slug": "sample-property-16",
+    "description": "This is a sample description for property 16. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Sale",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2016,
+    "price": 560000,
+    "rentalEstimate": 3600,
+    "featured": true,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,16",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,16",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,16"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "160 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75016",
+    "geo": {
+      "lat": 33.6,
+      "lng": -97.6
+    },
+    "walkScore": 86,
+    "transitScore": 76,
+    "bikeScore": 81,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "lotSize": "1.60 acres",
+    "buildingSize": "2600 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": true,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 180
+    },
+    "monthlyCosts": {
+      "utilities": 360,
+      "taxes": 640
+    },
+    "initialCosts": {
+      "downPayment": 112000,
+      "closingCosts": 6600
+    },
+    "monthlyExpenses": {
+      "mortgage": 2600,
+      "insurance": 180
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 7.6
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 7.1
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 544000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 560000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 16",
+      "phone": "555-000016",
+      "email": "agent16@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1800,
+      "favorites": 130,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 17",
+    "slug": "sample-property-17",
+    "description": "This is a sample description for property 17. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Rent",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2017,
+    "price": 570000,
+    "rentalEstimate": 3700,
+    "featured": false,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,17",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,17",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,17"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "170 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75017",
+    "geo": {
+      "lat": 33.7,
+      "lng": -97.7
+    },
+    "walkScore": 87,
+    "transitScore": 77,
+    "bikeScore": 82,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "lotSize": "1.70 acres",
+    "buildingSize": "2700 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": false,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 185
+    },
+    "monthlyCosts": {
+      "utilities": 370,
+      "taxes": 655
+    },
+    "initialCosts": {
+      "downPayment": 114000,
+      "closingCosts": 6700
+    },
+    "monthlyExpenses": {
+      "mortgage": 2650,
+      "insurance": 185
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 7.7
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 7.2
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 553000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 570000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 17",
+      "phone": "555-000017",
+      "email": "agent17@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1850,
+      "favorites": 135,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 18",
+    "slug": "sample-property-18",
+    "description": "This is a sample description for property 18. Spacious and modern.",
+    "type": "Apartment",
+    "status": "For Sale",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2018,
+    "price": 580000,
+    "rentalEstimate": 3800,
+    "featured": true,
+    "sponsorshipTier": "Gold",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,18",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,18",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,18"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "180 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75018",
+    "geo": {
+      "lat": 33.8,
+      "lng": -97.8
+    },
+    "walkScore": 88,
+    "transitScore": 78,
+    "bikeScore": 83,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "lotSize": "1.80 acres",
+    "buildingSize": "2800 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": true,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 190
+    },
+    "monthlyCosts": {
+      "utilities": 380,
+      "taxes": 670
+    },
+    "initialCosts": {
+      "downPayment": 116000,
+      "closingCosts": 6800
+    },
+    "monthlyExpenses": {
+      "mortgage": 2700,
+      "insurance": 190
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 7.8
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 7.3
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 562000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 580000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 18",
+      "phone": "555-000018",
+      "email": "agent18@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1900,
+      "favorites": 140,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 19",
+    "slug": "sample-property-19",
+    "description": "This is a sample description for property 19. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Rent",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2019,
+    "price": 590000,
+    "rentalEstimate": 3900,
+    "featured": false,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,19",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,19",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,19"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "190 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75019",
+    "geo": {
+      "lat": 33.9,
+      "lng": -97.9
+    },
+    "walkScore": 89,
+    "transitScore": 79,
+    "bikeScore": 84,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "lotSize": "1.90 acres",
+    "buildingSize": "2900 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": false,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 195
+    },
+    "monthlyCosts": {
+      "utilities": 390,
+      "taxes": 685
+    },
+    "initialCosts": {
+      "downPayment": 118000,
+      "closingCosts": 6900
+    },
+    "monthlyExpenses": {
+      "mortgage": 2750,
+      "insurance": 195
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 7.9
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 7.4
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 571000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 590000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 19",
+      "phone": "555-000019",
+      "email": "agent19@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 1950,
+      "favorites": 145,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  },
+  {
+    "title": "Sample Property 20",
+    "slug": "sample-property-20",
+    "description": "This is a sample description for property 20. Spacious and modern.",
+    "type": "Single Family",
+    "status": "For Sale",
+    "tags": [
+      "Luxury",
+      "Family Home",
+      "Pool",
+      "Modern",
+      "Open Concept",
+      "Garage",
+      "Garden",
+      "Pet-Friendly",
+      "Energy Efficient",
+      "Quiet Neighborhood",
+      "Near Schools",
+      "Waterfront"
+    ],
+    "yearBuilt": 2020,
+    "price": 600000,
+    "rentalEstimate": 4000,
+    "featured": true,
+    "sponsorshipTier": "Silver",
+    "thumbnail": "https://source.unsplash.com/400x300/?house,20",
+    "gallery": [
+      "https://source.unsplash.com/800x600/?house,0",
+      "https://source.unsplash.com/800x600/?house,1",
+      "https://source.unsplash.com/800x600/?house,2",
+      "https://source.unsplash.com/800x600/?house,3",
+      "https://source.unsplash.com/800x600/?house,4",
+      "https://source.unsplash.com/800x600/?house,5",
+      "https://source.unsplash.com/800x600/?house,6",
+      "https://source.unsplash.com/800x600/?house,7",
+      "https://source.unsplash.com/800x600/?house,8",
+      "https://source.unsplash.com/800x600/?house,9",
+      "https://source.unsplash.com/800x600/?house,10",
+      "https://source.unsplash.com/800x600/?house,11"
+    ],
+    "floorPlans": [
+      "https://source.unsplash.com/800x600/?floorplan,20",
+      "https://source.unsplash.com/800x600/?architecture,floorplan,20"
+    ],
+    "virtualTour": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "address": "200 Example Street",
+    "city": "Sample City",
+    "state": "TX",
+    "zip": "75020",
+    "geo": {
+      "lat": 34.0,
+      "lng": -98.0
+    },
+    "walkScore": 90,
+    "transitScore": 80,
+    "bikeScore": 85,
+    "nearbyPlaces": [
+      "Coffee Shop",
+      "School",
+      "Park",
+      "Grocery Store"
+    ],
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "lotSize": "2.00 acres",
+    "buildingSize": "3000 sq ft",
+    "amenities": [
+      "Swimming Pool",
+      "Garage",
+      "Fireplace",
+      "Garden"
+    ],
+    "energyEfficiency": {
+      "rating": "A",
+      "solarPanels": true,
+      "insulation": "High"
+    },
+    "fees": {
+      "hoa": 200
+    },
+    "monthlyCosts": {
+      "utilities": 400,
+      "taxes": 700
+    },
+    "initialCosts": {
+      "downPayment": 120000,
+      "closingCosts": 7000
+    },
+    "monthlyExpenses": {
+      "mortgage": 2800,
+      "insurance": 200
+    },
+    "mortgageOptions": [
+      {
+        "type": "30-year fixed",
+        "rate": 8.0
+      },
+      {
+        "type": "15-year fixed",
+        "rate": 7.5
+      }
+    ],
+    "priceHistory": [
+      {
+        "date": "2023-01-01",
+        "price": 580000
+      },
+      {
+        "date": "2024-06-01",
+        "price": 600000
+      }
+    ],
+    "brokerCommission": "3%",
+    "agent": {
+      "name": "Agent 20",
+      "phone": "555-000020",
+      "email": "agent20@realestate.com",
+      "agency": "Sample Realty"
+    },
+    "engagement": {
+      "views": 2000,
+      "favorites": 150,
+      "reviews": [
+        {
+          "user": "UserA",
+          "rating": 5,
+          "comment": "Great property!"
+        },
+        {
+          "user": "UserB",
+          "rating": 4,
+          "comment": "Nice place."
+        }
+      ]
+    },
+    "meta": {
+      "listingDate": "2025-01-01",
+      "lastUpdated": "2025-10-01"
+    }
+  }
+]
