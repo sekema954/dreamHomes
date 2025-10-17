@@ -7,6 +7,7 @@ const properties = require('./JSON/sample_real_estate_listings.json');
 const { default: mongoose } = require('mongoose');
 //routes
 const getProperties = require('./routes/GetAllProperties');
+const getFeaturedProperties = require('./routes/featuredProperties');
 
 //initialize express
 const app = express();
@@ -18,6 +19,7 @@ app.use(express.json());
 
 //routes
 app.use(getProperties);
+app.use(getFeaturedProperties);
 
 
 
