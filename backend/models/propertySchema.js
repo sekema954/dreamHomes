@@ -1,5 +1,6 @@
-import mongoose from "mongoose";
+const mongoose = require('mongoose');
 
+//property model 
 const propertySchema = new mongoose.Schema({
   title: { type: String, required: true },
   slug: { type: String, required: true, unique: true },
@@ -89,6 +90,5 @@ const propertySchema = new mongoose.Schema({
   },
 }, { timestamps: true });
 
-const Property = mongoose.model("Properties", propertySchema);
-
-export default Property;
+ const Property = mongoose.model("Properties", propertySchema);
+ module.exports = Property;
