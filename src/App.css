@@ -7,4 +7,15 @@
   font-style: normal;
 };
 
+body{
+  background-color:#141414;
+  color: white;
+};
+
+button{
+  cursor: pointer;
+}
+
+
+
 

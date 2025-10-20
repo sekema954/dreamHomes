@@ -1,7 +1,95 @@
 //pages/Homes.tsx
-
+import stars from '../assets/images/stars.png';
+import hero from '../assets/images/hero.png';
+import subContainer from '../assets/images/Sub Container.png';
+import home from '../assets/images/store.png';
+import propertyValue from '../assets/images/camera.png';
+import management from '../assets/images/tower.png';
+import investment from '../assets/images/sun.png';
+import { ArrowUpRight} from 'lucide-react';
+import { SectionHeader } from '../components/SectionHeader';
+import { featuredProperties } from '../components/SectionHeader';
 export const HomePage = () => {
     return(
-        <div>HomePage</div>
+        <section>
+            <div className="grid lg:grid-cols-2 grid-rows-auto relative lg:mt-19">
+                <div className='absolute right-[45%] top-[25%]'>
+                    <img className='w-[175px] h-[175px] hidden lg:flex' src={subContainer} alt="" />
+                </div>
+                {/**grid-layout 1 */}
+                <div className='lg:w-full flex'>
+                    <main className='lg:px-[100px] px-5 flex flex-col gap-3'>
+                        <img className='w-fit h-fit' src={stars} alt="" />
+                        <h1 className='lg:text-[48px] text-[28px] font-semibold'>Discover Your Dream Property with Estatein</h1>
+                        <p className='text-[#999999]'>Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.
+                        </p>
+                        {/**cta buttons */}
+                        <div className='flex flex-wrap gap-5'>
+                             <button className='w-[139px] h-[63px] border border-[#363636] rounded-lg transition-all duration-[0.5s] hover:bg-[#703BF7]/80'>Learn more</button>
+                        <button className='w-[191px] h-[63px] bg-[#703BF7] rounded-lg transition-all duration-[0.5s] hover:bg-[#703BF7]/80'>
+                            Browse Properties
+                        </button>
+                        </div>
+               
+                        {/**stats */}
+                        <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 w-full'>
+                            {[
+                                {id:1, title:"Happy Customers", value:"200",},
+                                {id:2, title:"Properties For Clients", value:"10k",},
+                                {id:3, title:"Years of Experience", value:"16",},
+                            ].map((stat, index)=>(
+                                <div
+                                    key={stat.id}
+                                    className={`rounded-lg border border-[#363636] bg-[#1A1A1A] flex flex-col justify-center px-5 py-6 text-center w-full 
+                                    ${index === 2 ? "col-span-2 lg:col-span-1" : ""}`}
+                                >
+                                    <span className='font-bold text-[40px]'>{stat.value}+</span>
+                                    <span className='text-[#999999]'>{stat.title}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </main>
+                </div>
+
+                {/**grid-layout 2 */}
+                <div 
+                className='flex items-center justify-center  mt-10'
+                style={{backgroundImage: `url(${hero})`,backgroundRepeat:'no-repeat', backgroundSize: "cover"}}
+                >
+                </div>
+            </div>
+
+            {/**perks */}
+            <div className='w-[252px] bg-[#141414] w-full border-6 border-[#363636] shadow shadow-[#262626] mt-6'>
+                <div className='flex lg:flex-nowrap flex-wrap p-5 bg-[#1A1A1A] gap-5'>
+                    {[
+                        {id:1, title:"Find Your Dream Home", icon:home},
+                        {id:2, title:"Unlock Property Value", icon:propertyValue},
+                        {id:3, title:"Effortless Property Management", icon:management},
+                        {id:4, title:"Smart Investments, Informed Decisions", icon:investment}
+                    ].map((l)=>(
+                        <div className='px-1 relative lg:w-[455px] h-[212px] w-full flex-wrap border border-[#363636] rounded-lg flex flex-col items-center justify-center' key={l.id}>
+                            <ArrowUpRight className='w-[34px] h-[34px] text-[#4D4D4D] absolute right-5 top-4' />
+                            <div className='flex flex-col items-center gap-5'>
+                                <img className='w-[82px] h-[82px]' src={l.icon} alt={l.title} aria-label={l.title} />
+                                <p className='text-center font-semibold text-[20px]'>{l.title}</p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            {/**featured properties */}
+            {featuredProperties.map((prop, _)=>(
+                <SectionHeader
+                    key={prop.id}
+                    title={prop.title} 
+                    buttonText={prop.buttonText} 
+                    subContext={prop.subContext} 
+                    buttonLink={prop.buttonLink} 
+                />
+            ))}
+        </section>
+
     )
 };
