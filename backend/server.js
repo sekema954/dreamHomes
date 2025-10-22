@@ -8,6 +8,7 @@ const { default: mongoose } = require('mongoose');
 //routes
 const getProperties = require('./routes/GetAllProperties');
 const getFeaturedProperties = require('./routes/featuredProperties');
+const getTestimonies = require('./routes/GetAllTestimony');
 
 //initialize express
 const app = express();
@@ -20,6 +21,7 @@ app.use(express.json());
 //routes
 app.use(getProperties);
 app.use(getFeaturedProperties);
+app.use(getTestimonies);
 
 
 

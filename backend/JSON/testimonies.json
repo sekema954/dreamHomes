@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Exceptional Service!",
+    "context": "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
+    "rating": 5,
+    "author": "Wade Warren",
+    "location": { "country": "USA", "city": "California" },
+    "profilePicture": "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?q=80&w=400"
+  },
+  {
+    "id": 2,
+    "title": "Trusted Advisors",
+    "context": "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
+    "rating": 4,
+    "author": "John Mars",
+    "location": { "country": "USA", "city": "Nevada" },
+    "profilePicture": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=400"
+  },
+  {
+    "id": 3,
+    "title": "Efficient and Reliable",
+    "context": "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
+    "rating": 5,
+    "author": "Emelie Thompson",
+    "location": { "country": "USA", "city": "Florida" },
+    "profilePicture": "https://images.unsplash.com/photo-1544725176-7c40e5a71c74?q=80&w=400"
+  },
+  {
+    "id": 4,
+    "title": "Professional and Friendly",
+    "context": "They made the entire process smooth and enjoyable. Estatein truly cares about their clients and goes above and beyond.",
+    "rating": 5,
+    "author": "Sarah Johnson",
+    "location": { "country": "USA", "city": "Texas" },
+    "profilePicture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400"
+  },
+  {
+    "id": 5,
+    "title": "Above Expectations",
+    "context": "I was amazed by their attention to detail and prompt communication. Estatein exceeded all my expectations.",
+    "rating": 4,
+    "author": "Michael Brown",
+    "location": { "country": "USA", "city": "New York" },
+    "profilePicture": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=400"
+  },
+  {
+    "id": 6,
+    "title": "Quick and Easy",
+    "context": "We found our perfect home in less than a week thanks to Estatein's efficient service. Highly recommend them!",
+    "rating": 5,
+    "author": "Laura Smith",
+    "location": { "country": "USA", "city": "Oregon" },
+    "profilePicture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400"
+  },
+  {
+    "id": 7,
+    "title": "Incredible Experience",
+    "context": "From start to finish, everything was handled with care and professionalism. The best real estate service I've ever used.",
+    "rating": 5,
+    "author": "Daniel Carter",
+    "location": { "country": "USA", "city": "Washington" },
+    "profilePicture": "https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=400"
+  },
+  {
+    "id": 8,
+    "title": "Outstanding Support",
+    "context": "The team at Estatein went out of their way to answer every question and ensure a seamless process. Truly outstanding support!",
+    "rating": 4,
+    "author": "Hannah Wilson",
+    "location": { "country": "USA", "city": "Colorado" },
+    "profilePicture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=400"
+  },
+  {
+    "id": 9,
+    "title": "Highly Recommend",
+    "context": "Their attention to client satisfaction is remarkable. Estatein is now my go-to for all real estate needs.",
+    "rating": 5,
+    "author": "James Anderson",
+    "location": { "country": "USA", "city": "Illinois" },
+    "profilePicture": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=400"
+  },
+  {
+    "id": 10,
+    "title": "Seamless Process",
+    "context": "Estatein made buying our new home a stress-free experience. Everything was handled professionally and promptly.",
+    "rating": 5,
+    "author": "Olivia Martinez",
+    "location": { "country": "USA", "city": "Arizona" },
+    "profilePicture": "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?q=80&w=400"
+  }
+]

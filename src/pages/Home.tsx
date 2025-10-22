@@ -6,21 +6,69 @@ import home from '../assets/images/store.png';
 import propertyValue from '../assets/images/camera.png';
 import management from '../assets/images/tower.png';
 import investment from '../assets/images/sun.png';
-import { ArrowUpRight} from 'lucide-react';
-import { SectionHeader } from '../components/SectionHeader';
+import { ArrowLeft, ArrowRight, ArrowUpRight} from 'lucide-react';
+import { SectionHeader, testimoniesHeader } from '../components/SectionHeader';
 import { featuredProperties } from '../components/SectionHeader';
+import { useFetchFeaturedProperties } from '../hooks/useFeaturedProperties';
+import { PropertyCard, type PropertyCardProp } from '../components/PropertyCard';
+import { useEffect, useRef, useState } from 'react';
 export const HomePage = () => {
+    const {isFeaturedProperties} = useFetchFeaturedProperties();
+    const scrollAmout  = 400;
+    const carouselRef = useRef<HTMLDivElement>(null);
+    const [autoScrollActive, setScrollActive] = useState<boolean>(true);
+    const [currentIndex, setCurrentIndex] = useState<number>(1);
+    const [shuffledProperties, setSuffuledProperties] = useState<PropertyCardProp[]>([]);
+    const totalSlides = isFeaturedProperties.length;
+    //let autoScroll: ReturnType<typeof setInterval>;
+
+
+
+    //featured section scroll
+    const handleNext = () => {
+        if(carouselRef.current) {
+            const newIndex = (currentIndex + 1) % totalSlides;
+            setCurrentIndex(newIndex);
+            carouselRef.current.scrollBy({ left: scrollAmout, behavior:"smooth"});
+            setScrollActive(false);
+        };
+    };
+
+    const handlePrev = () => {
+        if(carouselRef.current) {
+            const newIndex = (currentIndex - 1) % totalSlides;
+            setCurrentIndex(newIndex);
+            carouselRef.current.scrollBy({left: -scrollAmout, behavior:"smooth"});
+            setScrollActive(false);
+        };
+    };
+
+    useEffect(() => {
+    if (!isFeaturedProperties || isFeaturedProperties.length === 0) return;
+
+    const shuffled = [...isFeaturedProperties].sort(() => Math.random() - 0.5);
+    setSuffuledProperties(shuffled);
+
+    if (autoScrollActive) {
+        const interval = setInterval(() => {
+        handleNext();
+        }, 4000);
+
+        return () => clearInterval(interval);
+    }
+    }, [isFeaturedProperties, autoScrollActive]);
+
     return(
         <section>
-            <div className="grid lg:grid-cols-2 grid-rows-auto relative lg:mt-19">
+            <div className="grid lg:grid-cols-2 grid-rows-auto relative lg:mt-10">
                 <div className='absolute right-[45%] top-[25%]'>
                     <img className='w-[175px] h-[175px] hidden lg:flex' src={subContainer} alt="" />
                 </div>
                 {/**grid-layout 1 */}
                 <div className='lg:w-full flex'>
-                    <main className='lg:px-[100px] px-5 flex flex-col gap-3'>
+                    <main className='lg:px-[100px]  px-5 flex flex-col gap-5'>
                         <img className='w-fit h-fit' src={stars} alt="" />
-                        <h1 className='lg:text-[48px] text-[28px] font-semibold'>Discover Your Dream Property with Estatein</h1>
+                        <h1 className='lg:text-[48px] text-[28px] font-semibold leading-tight'>Discover Your Dream Property with Estatein</h1>
                         <p className='text-[#999999]'>Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.
                         </p>
                         {/**cta buttons */}
@@ -78,18 +126,67 @@ export const HomePage = () => {
                     ))}
                 </div>
             </div>
+            
+            <div className='lg:px-30'>
+                {/**featured properties */}
+                {featuredProperties.map((prop, _)=>(
+                    <SectionHeader
+                        key={prop.id}
+                        title={prop.title} 
+                        buttonText={prop.buttonText} 
+                        subContext={prop.subContext} 
+                        buttonLink={prop.buttonLink} 
+                    />
+                ))}
 
-            {/**featured properties */}
-            {featuredProperties.map((prop, _)=>(
-                <SectionHeader
-                    key={prop.id}
-                    title={prop.title} 
-                    buttonText={prop.buttonText} 
-                    subContext={prop.subContext} 
-                    buttonLink={prop.buttonLink} 
-                />
-            ))}
+                <div 
+                onTouchMove={(e)=>e.preventDefault()}
+                onWheel={(e)=>e.preventDefault()}
+                ref={carouselRef} 
+                className='flex gap-5 overflow-auto max-w-[1200px] no-scrollbar'>
+                    {shuffledProperties.map((property)=>(
+                        <PropertyCard
+                            id={property.id}
+                            key={property.id}
+                            thumbnail={property.thumbnail}
+                            title={property.title}
+                            description={property.description}
+                            bathrooms={property.bathrooms}
+                            bedrooms={property.bedrooms}
+                            type={property.type}
+                            price={property.price}
+                            detailsLink={'/propertyDetails/:id'}                  
+                        />
+                    ))}
+
+                </div>
+                <div className='flex items-center justify-between py-5'>
+                    <span>
+                        {`${currentIndex} of ${isFeaturedProperties.length}`}
+                    </span>
+                    <div className='flex items-center justify-center gap-2'>
+                        <button onClick={handlePrev} className='w-[44px] h-[44px] border border-[#363636] rounded-full flex items-center justify-center transform-all duration-[0.5s] hover:bg-[#703BF6]/80'>
+                            <ArrowLeft />
+                        </button>
+
+                        <button onClick={handleNext} className='w-[44px] h-[44px] border border-[#363636] rounded-full flex items-center justify-center transform-all duration-[0.5s] hover:bg-[#703BF6]/80'>
+                            <ArrowRight />
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            {/**Testimony */}
+            <div className='lg:px-30'>
+                {testimoniesHeader.map((t, _)=>(
+                    <SectionHeader
+                    key={t.id}
+                    title={t.title} 
+                    buttonText={t.buttonText} 
+                    subContext={t.subContext} 
+                    buttonLink={t.buttonLink} />
+                ))}
+            </div>
         </section>
-
     )
 };

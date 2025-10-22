@@ -88,7 +88,17 @@ const propertySchema = new mongoose.Schema({
     listingDate: { type: Date },
     lastUpdated: { type: Date },
   },
+
 }, { timestamps: true });
+
+propertySchema.set('toJSON', {
+  transform: (doc, ret) => {
+    ret.id = ret._id;
+    delete ret._id;
+    delete ret.__v;
+    return ret;
+  },
+});
 
  const Property = mongoose.model("Properties", propertySchema);
  module.exports = Property;
