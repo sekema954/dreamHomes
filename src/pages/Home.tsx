@@ -127,7 +127,7 @@ export const HomePage = () => {
                 </div>
             </div>
             
-            <div className='lg:px-30'>
+            <div className='lg:px-30 p-5'>
                 {/**featured properties */}
                 {featuredProperties.map((prop, _)=>(
                     <SectionHeader
@@ -160,7 +160,7 @@ export const HomePage = () => {
                     ))}
 
                 </div>
-                <div className='flex items-center justify-between py-5'>
+                <div className='flex items-center justify-between p-5'>
                     <span>
                         {`${currentIndex} of ${isFeaturedProperties.length}`}
                     </span>
