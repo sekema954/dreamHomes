@@ -44,3 +44,14 @@ export const testimoniesHeader = [
         buttonLink:"/viewAll"
     }
 ];
+
+
+export const FAQHeader = [
+     {
+        id:1, 
+        title:"Frequently Asked Questions", 
+        subContext:"Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way.",
+        buttonText:"View All FAQ'S",
+        buttonLink:"/FAQ's"
+    }
+];

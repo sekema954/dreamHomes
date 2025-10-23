@@ -29,37 +29,59 @@ export const HomePage = () => {
 
     //featured section scroll
     const handleNext = () => {
-        if(carouselRef.current) {
-            const newIndex = (currentIndex + 1) % totalSlides;
-            setCurrentIndex(newIndex);
-            carouselRef.current.scrollBy({ left: scrollAmout, behavior:"smooth"});
-            setScrollActive(false);
-        };
+    if (!carouselRef.current) return;
+
+    if (currentIndex < totalSlides - 1) {
+        const newIndex = currentIndex + 1;
+        setCurrentIndex(newIndex);
+        carouselRef.current.scrollBy({ left: scrollAmout, behavior: "smooth" });
+    }
+
+    // stop auto scroll after manual click
+    setScrollActive(false);
     };
 
     const handlePrev = () => {
-        if(carouselRef.current) {
-            const newIndex = (currentIndex - 1) % totalSlides;
-            setCurrentIndex(newIndex);
-            carouselRef.current.scrollBy({left: -scrollAmout, behavior:"smooth"});
-            setScrollActive(false);
-        };
+    if (!carouselRef.current) return;
+
+    if (currentIndex > 1) {
+        const newIndex = currentIndex - 1;
+        setCurrentIndex(newIndex);
+        carouselRef.current.scrollBy({ left: -scrollAmout, behavior: "smooth" });
+    }
+
+    // stop auto scroll after manual click
+    setScrollActive(false);
     };
 
+    //Shuffle only ones on scroll
     useEffect(() => {
-    if (!isFeaturedProperties || isFeaturedProperties.length === 0) return;
+        if (!isFeaturedProperties || isFeaturedProperties.length === 0) return;
 
-    const shuffled = [...isFeaturedProperties].sort(() => Math.random() - 0.5);
-    setSuffuledProperties(shuffled);
+        const shuffled = [...isFeaturedProperties].sort(() => Math.random() - 0.5);
+        setSuffuledProperties(shuffled);
+    }, [isFeaturedProperties]);
 
-    if (autoScrollActive) {
-        const interval = setInterval(() => {
-        handleNext();
-        }, 4000);
+    // Auto-scroll (stop at last slide)
+    useEffect(() => {
+    if (!autoScrollActive || totalSlides === 0) return;
 
-        return () => clearInterval(interval);
-    }
-    }, [isFeaturedProperties, autoScrollActive]);
+    const interval = setInterval(() => {
+        setCurrentIndex((prevIndex) => {
+        const newIndex = prevIndex + 1;
+        if (newIndex < totalSlides && carouselRef.current) {
+            carouselRef.current.scrollBy({ left: scrollAmout, behavior: "smooth" });
+            return newIndex;
+        } else {
+            // stop when reaching the end
+            clearInterval(interval);
+            return prevIndex;
+        }
+        });
+    }, 4000);
+
+    return () => clearInterval(interval);
+    }, [autoScrollActive, totalSlides]);
 
     return(
         <section>
@@ -163,7 +185,8 @@ export const HomePage = () => {
                     ))}
 
                 </div>
-                <div className='flex items-center justify-between p-5'>
+
+                <div className=' hidden lg:flex items-center justify-between p-5'>
                     <span>
                         {`${currentIndex} of ${isFeaturedProperties.length}`}
                     </span>
@@ -176,6 +199,41 @@ export const HomePage = () => {
                             <ArrowRight />
                         </button>
                     </div>
+                </div>
+
+                {/**carousel button for mobile devices */}
+                <div className="flex lg:hidden flex-col sm:flex-row sm:items-center sm:justify-between gap-4 p-5">
+                {/* Left: View All button */}
+                <a href="">
+                    <button className="text-sm w-full sm:w-[155px] h-[40px] border border-[#363636] bg-[#1A1A1A] rounded-lg transition-all duration-500 hover:bg-[#703BF7]/80">
+                    View All Properties
+                    </button>
+                </a>
+
+                {/* Right: navigation controls */}
+                <div className="flex items-center justify-between sm:justify-center gap-4 w-full sm:w-auto">
+                    <button
+                    onClick={handlePrev}
+                    disabled={currentIndex === 0}
+                    className={`w-[40px] h-[40px] border border-[#363636] rounded-full flex items-center justify-center transition-all duration-500 
+                        ${currentIndex === 0 ? "opacity-40 cursor-not-allowed" : "hover:bg-[#703BF6]/80"}`}
+                    >
+                    <ArrowLeft size={18} />
+                    </button>
+
+                    <span className="text-sm text-gray-400 whitespace-nowrap">
+                    {`${currentIndex + 1} of ${isFeaturedProperties.length}`}
+                    </span>
+
+                    <button
+                    onClick={handleNext}
+                    disabled={currentIndex === isFeaturedProperties.length - 1}
+                    className={`w-[40px] h-[40px] border border-[#363636] rounded-full flex items-center justify-center transition-all duration-500 
+                        ${currentIndex === isFeaturedProperties.length - 1 ? "opacity-40 cursor-not-allowed" : "hover:bg-[#703BF6]/80"}`}
+                    >
+                    <ArrowRight size={18} />
+                    </button>
+                </div>
                 </div>
             </div>
 
@@ -191,7 +249,7 @@ export const HomePage = () => {
                 ))}
 
 
-                <div className='flex gap-4 overflow-auto no-scrollbar'>
+                <div className='flex gap-4 overflow-auto no-scrollbar py-'>
                         {testimonies.slice(0, 10).map((t, _)=>(
                         <TestimonyCard
                         key={t.id}
