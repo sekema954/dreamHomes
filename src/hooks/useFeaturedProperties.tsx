@@ -13,7 +13,7 @@ export const useFetchFeaturedProperties = () => {
         const fetchFeaturedProperties = async () => {
             const url = import.meta.env.PROD 
             ? import.meta.env.VITE_PRODUCTION_ENDPOINT 
-            : import.meta.env.VITE_LOCALHOST_ENDPOINT;
+            : import.meta.env.VITE_DEV_FEATURED_PROPERTIES;
             setLoading(true);
             try{
                 const response = await fetch(url, ({

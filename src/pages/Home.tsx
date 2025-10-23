@@ -12,8 +12,11 @@ import { featuredProperties } from '../components/SectionHeader';
 import { useFetchFeaturedProperties } from '../hooks/useFeaturedProperties';
 import { PropertyCard, type PropertyCardProp } from '../components/PropertyCard';
 import { useEffect, useRef, useState } from 'react';
+import { useTestimony } from '../hooks/useTestimonials';
+import { TestimonyCard } from '../components/TestimonyCard';
 export const HomePage = () => {
     const {isFeaturedProperties} = useFetchFeaturedProperties();
+    const {testimonies} = useTestimony();
     const scrollAmout  = 400;
     const carouselRef = useRef<HTMLDivElement>(null);
     const [autoScrollActive, setScrollActive] = useState<boolean>(true);
@@ -186,6 +189,22 @@ export const HomePage = () => {
                     subContext={t.subContext} 
                     buttonLink={t.buttonLink} />
                 ))}
+
+
+                <div className='flex gap-4 overflow-auto no-scrollbar'>
+                        {testimonies.slice(0, 10).map((t, _)=>(
+                        <TestimonyCard
+                        key={t.id}
+                        id={t.id} 
+                        title={t.title} 
+                        context={t.context} 
+                        rating={t.rating} 
+                        author={t.author} 
+                        location={t.location} 
+                        profilePicture={t.profilePicture} />
+                    ))}
+                </div>
+             
             </div>
         </section>
     )
