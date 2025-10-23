@@ -16,7 +16,7 @@ export interface testimonialProp{
 
 export const TestimonyCard = ({id, title, context, rating, author, location, profilePicture}:testimonialProp) => {
     return(
-        <div key={id} className="shrink-0 w-[413px] h-[363px] bg-[#141414] border border-[#363636] p-[30px] flex flex-col gap-5 rounded-lg">
+        <div key={id} className="relative shrink-0 w-[413px] h-[363px] bg-[#141414] border border-[#363636] p-[30px] flex flex-col gap-5 rounded-lg">
             <div className="flex">
                 {Array.from({length:rating}).map((_, idx)=>(
                     <div className="w-[38px] h-[38px] rounded-full border border-[#363636] flex items-center justify-center" key={idx}>
@@ -28,7 +28,7 @@ export const TestimonyCard = ({id, title, context, rating, author, location, pro
 
             <h1 className="text-[30px] font-semibold">{title}</h1>
             <p className="text-[16px] font-medium">{context}</p>
-            <div className="flex items-center  gap-4">
+            <div className="flex items-center  gap-4 absolute bottom-5">
                 <img className="w-[50px] h-[50px] rounded-full" src={profilePicture} alt={`estatein, testimony${title}`} aria-label={`estatein, testimony${title}`} />
                 <div className="flex flex-col gap-3">
                     <h1 className="text-[18px] font-medium">{author}</h1>
