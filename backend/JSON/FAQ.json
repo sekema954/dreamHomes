@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Buying Property",
+    "question": "How do I start the process of buying a home?",
+    "context": "Begin by browsing listings on our site, then contact the agent listed for the property to schedule a viewing or get more details."
+  },
+  {
+    "title": "Selling Property",
+    "question": "How can I list my property for sale?",
+    "context": "Create an account, navigate to 'Post a Listing,' fill in property details, upload photos, and submit for approval by our team."
+  },
+  {
+    "title": "Agent Contact",
+    "question": "How can I contact an agent directly?",
+    "context": "Each property page includes the agent’s profile with a ‘Contact Agent’ button that allows you to send a direct message or request a call."
+  },
+  {
+    "title": "Property Verification",
+    "question": "Are listings verified before being posted?",
+    "context": "Yes, all listings undergo a verification process to ensure they are legitimate and accurately described before going live."
+  },
+  {
+    "title": "Rental Listings",
+    "question": "Can I find rental properties on your platform?",
+    "context": "Yes, you can filter properties by type and choose 'For Rent' to view available rental listings in your preferred location."
+  },
+  {
+    "title": "Payment Options",
+    "question": "Do I need to pay to list my property?",
+    "context": "Basic listings are free, but premium listings that offer more visibility and priority placement require a small fee."
+  },
+  {
+    "title": "Site Security",
+    "question": "Is my personal information safe when using this site?",
+    "context": "Absolutely. We use secure encryption and comply with data privacy laws to protect all user and transaction information."
+  },
+  {
+    "title": "Mortgage Assistance",
+    "question": "Do you help with mortgage or financing options?",
+    "context": "Yes, we partner with local banks and mortgage providers. You can explore financing options in the 'Mortgage Center' section."
+  },
+  {
+    "title": "Property Types",
+    "question": "What types of properties are listed?",
+    "context": "Our platform features residential homes, apartments, commercial buildings, and land for sale or rent across multiple regions."
+  },
+  {
+    "title": "Account Management",
+    "question": "How can I edit or remove my property listing?",
+    "context": "Log into your account, go to 'My Listings,' select the property you wish to edit or delete, and apply your changes."
+  }
+]

@@ -9,6 +9,7 @@ const { default: mongoose } = require('mongoose');
 const getProperties = require('./routes/GetAllProperties');
 const getFeaturedProperties = require('./routes/featuredProperties');
 const getTestimonies = require('./routes/GetAllTestimony');
+const getFrequentlyAskedQuestions = require('./routes/getAllFAQQuestions');
 
 //initialize express
 const app = express();
@@ -22,6 +23,7 @@ app.use(express.json());
 app.use(getProperties);
 app.use(getFeaturedProperties);
 app.use(getTestimonies);
+app.use(getFrequentlyAskedQuestions);
 
 
 

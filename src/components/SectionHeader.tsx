@@ -1,4 +1,4 @@
-interface PropHeader{
+export interface PropHeader{
     title:string;
     buttonText:string;
     subContext:string;

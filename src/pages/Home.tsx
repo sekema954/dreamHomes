@@ -7,18 +7,25 @@ import propertyValue from '../assets/images/camera.png';
 import management from '../assets/images/tower.png';
 import investment from '../assets/images/sun.png';
 import { ArrowLeft, ArrowRight, ArrowUpRight} from 'lucide-react';
-import { SectionHeader, testimoniesHeader } from '../components/SectionHeader';
+import { FAQHeader, SectionHeader, testimoniesHeader } from '../components/SectionHeader';
 import { featuredProperties } from '../components/SectionHeader';
 import { useFetchFeaturedProperties } from '../hooks/useFeaturedProperties';
 import { PropertyCard, type PropertyCardProp } from '../components/PropertyCard';
 import { useEffect, useRef, useState } from 'react';
 import { useTestimony } from '../hooks/useTestimonials';
 import { TestimonyCard } from '../components/TestimonyCard';
+import { useFrequentlyAskedQuestions } from '../hooks/useFrequentlyAskedQuestions';
+import { FAQCard } from '../components/FAQCard';
+import { CTA } from '../components/CTA';
 export const HomePage = () => {
     const {isFeaturedProperties} = useFetchFeaturedProperties();
+    const {questions} = useFrequentlyAskedQuestions();
     const {testimonies} = useTestimony();
     const scrollAmout  = 400;
     const carouselRef = useRef<HTMLDivElement>(null);
+    const carouselRef2 = useRef<HTMLDivElement>(null);
+    const carouselRef3 = useRef<HTMLDivElement>(null);
+
     const [autoScrollActive, setScrollActive] = useState<boolean>(true);
     const [currentIndex, setCurrentIndex] = useState<number>(1);
     const [shuffledProperties, setSuffuledProperties] = useState<PropertyCardProp[]>([]);
@@ -30,11 +37,16 @@ export const HomePage = () => {
     //featured section scroll
     const handleNext = () => {
     if (!carouselRef.current) return;
+    if (!carouselRef2.current) return;
+    if (!carouselRef3.current) return;
+
 
     if (currentIndex < totalSlides - 1) {
         const newIndex = currentIndex + 1;
         setCurrentIndex(newIndex);
         carouselRef.current.scrollBy({ left: scrollAmout, behavior: "smooth" });
+        carouselRef2.current.scrollBy({ left: scrollAmout, behavior: "smooth" });
+        carouselRef3.current.scrollBy({ left: scrollAmout, behavior: "smooth" });
     }
 
     // stop auto scroll after manual click
@@ -43,11 +55,16 @@ export const HomePage = () => {
 
     const handlePrev = () => {
     if (!carouselRef.current) return;
+    if(!carouselRef2.current) return;
+    if(!carouselRef3.current) return;
 
     if (currentIndex > 1) {
         const newIndex = currentIndex - 1;
         setCurrentIndex(newIndex);
         carouselRef.current.scrollBy({ left: -scrollAmout, behavior: "smooth" });
+        carouselRef2.current.scrollBy({ left: -scrollAmout, behavior: "smooth" });
+        carouselRef3.current.scrollBy({ left: -scrollAmout, behavior: "smooth" });
+
     }
 
     // stop auto scroll after manual click
@@ -72,6 +89,12 @@ export const HomePage = () => {
         if (newIndex < totalSlides && carouselRef.current) {
             carouselRef.current.scrollBy({ left: scrollAmout, behavior: "smooth" });
             return newIndex;
+        } else if(newIndex < totalSlides && carouselRef2.current){
+            carouselRef2.current.scrollBy({ left: scrollAmout, behavior: "smooth" });
+            return newIndex
+        } else if(newIndex < totalSlides && carouselRef3.current) {
+            carouselRef3.current.scrollBy({ left: scrollAmout, behavior: "smooth" });
+            return newIndex
         } else {
             // stop when reaching the end
             clearInterval(interval);
@@ -210,35 +233,35 @@ export const HomePage = () => {
                     </button>
                 </a>
 
-                {/* Right: navigation controls */}
-                <div className="flex items-center justify-between sm:justify-center gap-4 w-full sm:w-auto">
-                    <button
-                    onClick={handlePrev}
-                    disabled={currentIndex === 0}
-                    className={`w-[40px] h-[40px] border border-[#363636] rounded-full flex items-center justify-center transition-all duration-500 
-                        ${currentIndex === 0 ? "opacity-40 cursor-not-allowed" : "hover:bg-[#703BF6]/80"}`}
-                    >
-                    <ArrowLeft size={18} />
-                    </button>
+                    {/* Right: navigation controls */}
+                    <div className="flex items-center justify-between sm:justify-center gap-4 w-full sm:w-auto">
+                        <button
+                        onClick={handlePrev}
+                        disabled={currentIndex === 0}
+                        className={`w-[40px] h-[40px] border border-[#363636] rounded-full flex items-center justify-center transition-all duration-500 
+                            ${currentIndex === 0 ? "opacity-40 cursor-not-allowed" : "hover:bg-[#703BF6]/80"}`}
+                        >
+                        <ArrowLeft size={18} />
+                        </button>
 
-                    <span className="text-sm text-gray-400 whitespace-nowrap">
-                    {`${currentIndex + 1} of ${isFeaturedProperties.length}`}
-                    </span>
+                        <span className="text-sm text-gray-400 whitespace-nowrap">
+                        {`${currentIndex + 1} of ${isFeaturedProperties.length}`}
+                        </span>
 
-                    <button
-                    onClick={handleNext}
-                    disabled={currentIndex === isFeaturedProperties.length - 1}
-                    className={`w-[40px] h-[40px] border border-[#363636] rounded-full flex items-center justify-center transition-all duration-500 
-                        ${currentIndex === isFeaturedProperties.length - 1 ? "opacity-40 cursor-not-allowed" : "hover:bg-[#703BF6]/80"}`}
-                    >
-                    <ArrowRight size={18} />
-                    </button>
-                </div>
+                        <button
+                        onClick={handleNext}
+                        disabled={currentIndex === isFeaturedProperties.length - 1}
+                        className={`w-[40px] h-[40px] border border-[#363636] rounded-full flex items-center justify-center transition-all duration-500 
+                            ${currentIndex === isFeaturedProperties.length - 1 ? "opacity-40 cursor-not-allowed" : "hover:bg-[#703BF6]/80"}`}
+                        >
+                        <ArrowRight size={18} />
+                        </button>
+                    </div>
                 </div>
             </div>
 
             {/**Testimony */}
-            <div className='lg:px-30'>
+            <div className='lg:px-30 p-5'>
                 {testimoniesHeader.map((t, _)=>(
                     <SectionHeader
                     key={t.id}
@@ -249,7 +272,9 @@ export const HomePage = () => {
                 ))}
 
 
-                <div className='flex gap-4 overflow-auto no-scrollbar py-'>
+                <div
+                ref={carouselRef2} 
+                className='flex gap-4 overflow-auto no-scrollbar py-4'>
                         {testimonies.slice(0, 10).map((t, _)=>(
                         <TestimonyCard
                         key={t.id}
@@ -262,8 +287,94 @@ export const HomePage = () => {
                         profilePicture={t.profilePicture} />
                     ))}
                 </div>
-             
+                <div className=' hidden lg:flex items-center justify-between p-5'>
+                    <span>
+                        {`${currentIndex} of ${isFeaturedProperties.length}`}
+                    </span>
+                    <div className='flex items-center justify-center gap-2'>
+                        <button onClick={handlePrev} className='w-[44px] h-[44px] border border-[#363636] rounded-full flex items-center justify-center transform-all duration-[0.5s] hover:bg-[#703BF6]/80'>
+                            <ArrowLeft />
+                        </button>
+
+                        <button onClick={handleNext} className='w-[44px] h-[44px] border border-[#363636] rounded-full flex items-center justify-center transform-all duration-[0.5s] hover:bg-[#703BF6]/80'>
+                            <ArrowRight />
+                        </button>
+                    </div>
+                </div>
+
             </div>
+
+            <div className='lg:px-30 px-5'>
+                {FAQHeader.map((f,_)=>(
+                    <SectionHeader 
+                        title={f.title} 
+                        buttonText={f.buttonText} 
+                        subContext={f.subContext} 
+                        buttonLink={f.buttonLink} 
+                    />
+                ))}
+                <div className='flex gap-4 overflow-auto no-scrollbar py-6'>
+                    {[...questions].sort(()=>Math.random() * 0.5).map((f, _)=>(
+                        <FAQCard 
+                            id={f.id} 
+                            title={f.title} 
+                            question={f.question} 
+                            context={f.context} 
+                            link={f.link} 
+                        />
+                    ))}
+                </div>
+                    <div className=' hidden lg:flex items-center justify-between p-5'>
+                    <span>
+                        {`${currentIndex} of ${isFeaturedProperties.length}`}
+                    </span>
+                    <div className='flex items-center justify-center gap-2'>
+                        <button onClick={handlePrev} className='w-[44px] h-[44px] border border-[#363636] rounded-full flex items-center justify-center transform-all duration-[0.5s] hover:bg-[#703BF6]/80'>
+                            <ArrowLeft />
+                        </button>
+
+                        <button onClick={handleNext} className='w-[44px] h-[44px] border border-[#363636] rounded-full flex items-center justify-center transform-all duration-[0.5s] hover:bg-[#703BF6]/80'>
+                            <ArrowRight />
+                        </button>
+                    </div>
+                </div>
+
+                {/**carousel button for mobile devices */}
+                <div className="flex lg:hidden flex-col sm:flex-row sm:items-center sm:justify-between gap-4 p-5">
+                {/* Left: View All button */}
+                <a href="">
+                    <button className="text-sm w-full sm:w-[155px] h-[40px] border border-[#363636] bg-[#1A1A1A] rounded-lg transition-all duration-500 hover:bg-[#703BF7]/80">
+                    View All Properties
+                    </button>
+                </a>
+
+                    {/* Right: navigation controls */}
+                    <div className="flex items-center justify-between sm:justify-center gap-4 w-full sm:w-auto">
+                        <button
+                        onClick={handlePrev}
+                        disabled={currentIndex === 0}
+                        className={`w-[40px] h-[40px] border border-[#363636] rounded-full flex items-center justify-center transition-all duration-500 
+                            ${currentIndex === 0 ? "opacity-40 cursor-not-allowed" : "hover:bg-[#703BF6]/80"}`}
+                        >
+                        <ArrowLeft size={18} />
+                        </button>
+
+                        <span className="text-sm text-gray-400 whitespace-nowrap">
+                        {`${currentIndex + 1} of ${isFeaturedProperties.length}`}
+                        </span>
+
+                        <button
+                        onClick={handleNext}
+                        disabled={currentIndex === isFeaturedProperties.length - 1}
+                        className={`w-[40px] h-[40px] border border-[#363636] rounded-full flex items-center justify-center transition-all duration-500 
+                            ${currentIndex === isFeaturedProperties.length - 1 ? "opacity-40 cursor-not-allowed" : "hover:bg-[#703BF6]/80"}`}
+                        >
+                        <ArrowRight size={18} />
+                        </button>
+                    </div>
+                </div>
+            </div>
+                <CTA />
         </section>
     )
 };
